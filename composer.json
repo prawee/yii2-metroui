@@ -12,7 +12,8 @@
     ],
     "require": {
         "yiisoft/yii2": "*",
-        "bower-asset/metro-ui-css": "*"
+        "bower-asset/metro-ui-css": "*",
+	"bower-asset/x-editable":"*"
     },
     "autoload": {
         "psr-4": {
