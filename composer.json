@@ -1,0 +1,21 @@
+{
+    "name": "prawee/yii2-metroui",
+    "description": "Metro UI for  Yii 2",
+    "type": "yii2-extension",
+    "keywords": ["yii2","extension","metro-ui","widgets"],
+    "license": "BSD-3-Clause",
+    "authors": [
+        {
+            "name": "Prawee Wongsa",
+            "email": "konkeanweb@gmail.com"
+        }
+    ],
+    "require": {
+        "yiisoft/yii2": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "prawee\\metroui\\": ""
+        }
+    }
+}
