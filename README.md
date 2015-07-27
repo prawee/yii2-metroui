@@ -16,7 +16,7 @@ php composer.phar require --prefer-dist prawee/yii2-metroui "*"
 or add
 
 ```
-"prawee/yii2-metroui": "*"
+"prawee/yii2-metroui": "dev-master"
 ```
 
 to the require section of your `composer.json` file.
