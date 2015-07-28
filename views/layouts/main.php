@@ -18,7 +18,6 @@ MetroUiAsset::register($this);
 <div class="wrap">
     <div class="container">
         <?= $content ?>
-        <div class="countdown" data-role="countdown" data-days="2"></div>
     </div>
 </div>
 
