@@ -19,6 +19,7 @@ class MetroUiAsset extends AssetBundle{
     public $css=[
         'css/metro.min.css',
         'css/metro-icons.min.css',
+        'css/metro-responsive.min.css',
     ];
     public $js=[
         'js/metro.min.js',
