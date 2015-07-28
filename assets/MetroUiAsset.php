@@ -18,6 +18,7 @@ class MetroUiAsset extends AssetBundle{
     public $sourcePath='@bower/metro-ui-css/build';
     public $css=[
         'css/metro.min.css',
+        'css/metro-icons.min.css',
     ];
     public $js=[
         'js/metro.min.js',
