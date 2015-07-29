@@ -25,6 +25,8 @@ class MetroUiAsset extends AssetBundle{
     ];
     public $js=[
         'build/js/metro.min.js',
+        'docs/js/docs.js',
+        'docs/js/prettify/prettify.js',
     ];
     public $depends=[
         'yii\web\YiiAsset',
