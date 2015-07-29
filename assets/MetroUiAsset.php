@@ -15,15 +15,15 @@ use yii\web\AssetBundle;
  * @since 1.0
  */
 class MetroUiAsset extends AssetBundle{
-    public $sourcePath='@bower/metro-ui-css/build';
+    public $sourcePath='@bower/metro-ui-css';
     public $css=[
-        'css/metro.min.css',
-        'css/metro-icons.min.css',
-        'css/metro-responsive.min.css',
-        'css/metro-schemes.min.css',
+        'build/css/metro.min.css',
+        'build/css/metro-icons.min.css',
+        'build/css/metro-responsive.min.css',
+        'build/css/metro-schemes.min.css',
     ];
     public $js=[
-        'js/metro.min.js',
+        'build/js/metro.min.js',
     ];
     public $depends=[
         'yii\web\YiiAsset',
