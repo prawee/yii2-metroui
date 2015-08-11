@@ -40,7 +40,7 @@ class Notify extends Widget
             ];
             $option = json_encode($output);
         }
-        $option=empty($option)?$option:{};
+        $option=!empty($option)?$option:{};
         $js = '
             setTimeout(function(){
                 $.Notify('.$option.');
