@@ -21,12 +21,12 @@ class MetroUiAsset extends AssetBundle{
         'build/css/metro-icons.min.css',
         'build/css/metro-responsive.min.css',
         'build/css/metro-schemes.min.css',
-        'docs/css/docs.css',
+        //'docs/css/docs.css',
     ];
     public $js=[
         'build/js/metro.min.js',
-        'docs/js/docs.js',
-        'docs/js/prettify/prettify.js',
+        //'docs/js/docs.js',
+        //'docs/js/prettify/prettify.js',
     ];
     public $depends=[
         'yii\web\YiiAsset',
