@@ -46,7 +46,11 @@ class Menu extends Widget{
             ]);
             return Html::tag('li',$output);
         }else{
-            return Html::tag('li',Html::a($data['label'],$data['url']));
+            if(isset($data['label'])){
+                return Html::tag('li',Html::a($data['label'],$data['url']));
+            }else{
+                return $data;
+            }
         }
     }
     public function renderInnerItem($data){
